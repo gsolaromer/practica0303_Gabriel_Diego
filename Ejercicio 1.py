@@ -5,7 +5,7 @@ pygame.init()
 
 # Inicialización de la superficie de dibujo
 ventana = pygame.display.set_mode((1280,720))
-pygame.display.set_caption("Venezuela")
+pygame.display.set_caption("Kripto coins")
 
 # Bucle principal del juego
 jugando = True
