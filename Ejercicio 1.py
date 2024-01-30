@@ -5,7 +5,7 @@ pygame.init()
 
 # Inicialización de la superficie de dibujo
 ventana = pygame.display.set_mode((1280,720))
-pygame.display.set_caption("Kripto coins")
+pygame.display.set_caption("Kripto War")
 
 # Bucle principal del juego
 jugando = True
@@ -18,7 +18,7 @@ while jugando:
 
     # Se pinta la ventana con un color
     # Esto borra los posibles elementos que teníamos anteriormente
-    ventana.fill((87, 35, 100))
+    ventana.fill((255, 255, 255))
 
     # Todos los elementos del juego se vuelven a dibujar
     pygame.display.flip()

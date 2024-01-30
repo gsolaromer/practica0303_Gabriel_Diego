@@ -3,7 +3,7 @@ import pygame
 
 pygame.init()
 ventana = pygame.display.set_mode((640,480))
-pygame.display.set_caption("Kripto coins")
+pygame.display.set_caption("Kripto War")
 
 # Crea el objeto pelota
 ball = pygame.image.load("dogecoin-logo2.png")

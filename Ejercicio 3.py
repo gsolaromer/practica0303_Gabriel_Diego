@@ -3,15 +3,15 @@ import pygame
 
 pygame.init()
 ventana = pygame.display.set_mode((640,480))
-pygame.display.set_caption("Ejemplo 3")
+pygame.display.set_caption("Kripto War")
 
-ball = pygame.image.load("ball.png")
+ball = pygame.image.load("dogecoin-logo2.png")
 ballrect = ball.get_rect()
 speed = [4,4]
 ballrect.move_ip(0,0)
 
 # Crea el objeto bate, y obtengo su rectángulo
-bate = pygame.image.load("bate.png")
+bate = pygame.image.load("fuet.png")
 baterect = bate.get_rect()
 
 # Pongo el bate en la parte inferior de la pantalla
