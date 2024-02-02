@@ -14,7 +14,7 @@ ballrect = ball.get_rect()
 speed = [6,6]
 
 # Pongo la pelota en el origen de coordenadas
-ballrect.move_ip(0,0)
+ballrect.move_ip(300,100)
 
 jugando = True
 while jugando:
@@ -32,7 +32,7 @@ while jugando:
     if ballrect.top < 0 or ballrect.bottom > ventana.get_height():
         speed[1] = -speed[1]
     
-    ventana.fill((252, 252, 252))
+    ventana.fill((119, 158, 203))
 
     # Dibujo la pelota
     ventana.blit(ball, ballrect)
