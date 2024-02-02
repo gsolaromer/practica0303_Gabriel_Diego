@@ -2,7 +2,7 @@ import pygame
 
 
 pygame.init()
-ventana = pygame.display.set_mode((640,480))
+ventana = pygame.display.set_mode((600,500))
 pygame.display.set_caption("Kripto War")
 
 ball = pygame.image.load("dogecoin-logo2.png")
@@ -15,7 +15,7 @@ bate = pygame.image.load("fuet.png")
 baterect = bate.get_rect()
 
 # Pongo el bate en la parte inferior de la pantalla
-baterect.move_ip(240,450)
+baterect.move_ip(240,400)
 
 jugando = True
 while jugando:
@@ -26,9 +26,9 @@ while jugando:
     # Compruebo si se ha pulsado alguna tecla
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT]:
-        baterect = baterect.move(-3,0)
+        baterect = baterect.move(-6,0)
     if keys[pygame.K_RIGHT]:
-        baterect = baterect.move(3,0)
+        baterect = baterect.move(6,0)
 
     # Compruebo si hay colisión
     if baterect.colliderect(ballrect):

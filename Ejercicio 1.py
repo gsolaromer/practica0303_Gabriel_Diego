@@ -4,7 +4,7 @@ import pygame
 pygame.init()
 
 # Inicialización de la superficie de dibujo
-ventana = pygame.display.set_mode((1280,720))
+ventana = pygame.display.set_mode((600,500))
 pygame.display.set_caption("Kripto War")
 
 # Bucle principal del juego
