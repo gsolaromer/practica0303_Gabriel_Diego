@@ -38,7 +38,7 @@ while jugando:
         speed[0] = -speed[0]
     if ballrect.top < 0 or ballrect.bottom > ventana.get_height():
         speed[1] = -speed[1]
-    ventana.fill((252, 243, 207))
+    ventana.fill((119, 158, 203))
     ventana.blit(ball, ballrect)
 
     # Dibujo el bate

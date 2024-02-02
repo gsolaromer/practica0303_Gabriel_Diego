@@ -18,7 +18,7 @@ while jugando:
 
     # Se pinta la ventana con un color
     # Esto borra los posibles elementos que teníamos anteriormente
-    ventana.fill((255, 255, 255))
+    ventana.fill((119, 158, 203))
 
     # Todos los elementos del juego se vuelven a dibujar
     pygame.display.flip()

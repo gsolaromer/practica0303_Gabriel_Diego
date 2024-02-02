@@ -1,6 +1,5 @@
 import pygame
 
-
 pygame.init()
 ventana = pygame.display.set_mode((600,500))
 pygame.display.set_caption("Kripto War")
@@ -12,7 +11,7 @@ ball = pygame.image.load("dogecoin-logo2.png")
 ballrect = ball.get_rect()
 
 # Inicializo los valores con los que se van a mover la pelota
-speed = [4,4]
+speed = [6,6]
 
 # Pongo la pelota en el origen de coordenadas
 ballrect.move_ip(0,0)
@@ -33,7 +32,7 @@ while jugando:
     if ballrect.top < 0 or ballrect.bottom > ventana.get_height():
         speed[1] = -speed[1]
     
-    ventana.fill((252, 243, 207))
+    ventana.fill((252, 252, 252))
 
     # Dibujo la pelota
     ventana.blit(ball, ballrect)
