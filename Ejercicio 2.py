@@ -11,7 +11,7 @@ ball = pygame.image.load("dogecoin-logo2.png")
 ballrect = ball.get_rect()
 
 # Inicializo los valores con los que se van a mover la pelota
-speed = [6,6]
+speed = [5,5]
 
 # Pongo la pelota en el origen de coordenadas
 ballrect.move_ip(300,100)
