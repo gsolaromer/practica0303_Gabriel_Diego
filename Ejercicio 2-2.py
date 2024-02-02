@@ -14,7 +14,7 @@ bate = pygame.image.load("fuet.png")
 baterect = bate.get_rect()
 
 # Pongo el bate en la parte inferior de la pantalla
-baterect.move_ip(300,100)
+baterect.move_ip(240,400)
 
 jugando = True
 while jugando:
