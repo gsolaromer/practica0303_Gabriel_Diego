@@ -7,14 +7,14 @@ pygame.display.set_caption("Kripto War")
 ball = pygame.image.load("dogecoin-logo2.png")
 ballrect = ball.get_rect()
 speed = [5,5]
-ballrect.move_ip(0,0)
+ballrect.move_ip(300,100)
 
 # Crea el objeto bate, y obtengo su rectángulo
 bate = pygame.image.load("fuet.png")
 baterect = bate.get_rect()
 
 # Pongo el bate en la parte inferior de la pantalla
-baterect.move_ip(240,400)
+baterect.move_ip(300,100)
 
 jugando = True
 while jugando:
